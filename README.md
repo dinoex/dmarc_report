@@ -74,7 +74,7 @@ sequenceDiagram
 IMAP ->> File: dmarc_imap.rb
 File ->> Attachment: dmarc_ripmime.rb
 Attachment ->> XML: dmarc_ripmime.rb
-XML ->> CSV: dmarc_report.rbS
+XML ->> CSV: dmarc_report.rb
 CSV ->> HTML: dmarc.rhtml
 ```
 
