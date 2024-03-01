@@ -1,0 +1,14 @@
+.rubocop_todo.yml
+DMARC
+HISTORY
+Makefile
+crontab.new
+run-dmarc.sh
+dmarc-profile.sh
+/config
+/doc
+/log
+/rules
+*.json
+*.csv
+*.gem

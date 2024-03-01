@@ -1,0 +1,33 @@
+# dmarc.yml
+-
+  subject: 'Report Domain: '
+  save:
+    dir: 'DMARC/in'
+    move: 'DMARC/parsed'
+-
+  subject: 'Report domain: '
+  save:
+    dir: 'DMARC/in'
+    move: 'DMARC/parsed'
+-
+  subject: 'DMARC Report'
+  save:
+    dir: 'DMARC/in'
+    move: 'DMARC/parsed'
+-
+  subject: 'DMARC report'
+  save:
+    dir: 'DMARC/in'
+    move: 'DMARC/parsed'
+-
+  subject: 'Dmarc aggregate report'
+  save:
+    dir: 'DMARC/in'
+    move: 'DMARC/parsed'
+-
+  subject: 'DMARC Forensic Report'
+  save:
+    dir: 'DMARC/in'
+    move: 'DMARC/parsed'
+
+# eof

@@ -1,0 +1,44 @@
+inherit_from: .rubocop_todo.yml
+
+# rubocop configuration
+
+AllCops:
+  NewCops: enable
+
+Layout/SpaceInsideArrayLiteralBrackets:
+  EnforcedStyle: space
+  Exclude:
+    - 'blocklistshow.gemspec'
+
+Layout/SpaceInsideParens:
+  EnforcedStyle: space
+  Exclude:
+    - 'blocklistshow.gemspec'
+
+Layout/SpaceInsideRangeLiteral:
+  #EnforcedStyle: space
+  Enabled: false
+
+Layout/SpaceInsideReferenceBrackets:
+  EnforcedStyle: space
+  Exclude:
+    - 'blocklistshow.gemspec'
+
+Metrics/MethodLength:
+  Max: 20
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/RegexpLiteral:
+  Enabled: false
+
+Style/SpecialGlobalVars:
+  EnforcedStyle: use_perl_names
+
+Style/SymbolArray:
+  EnforcedStyle: brackets
+
+Style/WordArray:
+  EnforcedStyle: brackets
+

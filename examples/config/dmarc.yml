@@ -1,0 +1,13 @@
+# dmarc.yml
+
+host: smtp.example.com
+port: 993
+# ca_file: root.crt
+login: username
+password: plain-password
+folder: INBOX
+rules: rules/dmarc.yml
+create_folder: true
+translate_slash: false
+
+# eof
