@@ -186,7 +186,8 @@ rescue Net::IMAP::NoResponseError => e
     warn 'Folder not found; creating...'
     dest.create( dest_folder )
     dest.subscribe( dest_folder )
-    dest.select( dest_folder )
+    # select may cause UUIDs to become invalid
+    # dest.select( dest_folder )
   rescue Net::IMAP::NoResponseError => ee
     warn ee.inspect
     @cancel = true

@@ -7,7 +7,7 @@ login: username
 password: plain-password
 folder: INBOX
 rules: rules/dmarc.yml
-create_folder: true
+create_folder: false
 translate_slash: false
 
 # eof
