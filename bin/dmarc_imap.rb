@@ -366,7 +366,7 @@ def parse_arguments
     when 'debug'
       @debug = true
     else
-      @pattern = argv
+      @pattern = arg
     end
   end
 end
