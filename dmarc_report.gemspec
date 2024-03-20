@@ -1,8 +1,8 @@
 # dokuwiki.gemspec
 Gem::Specification.new do |s|
   s.name = 'dmarc_report'
-  s.version = '1.0'
-  s.date = '2023-12-23'
+  s.version = '1.1'
+  s.date = '2024-03-07'
   s.summary = 'fetch and parse DMARC reports'
   s.description = 'Fetch DMARC report mails via IMAP and extract and convert the data to CSV.'
   s.authors = ['Dirk Meyer']
