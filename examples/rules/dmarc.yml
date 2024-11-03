@@ -10,6 +10,11 @@
     dir: 'DMARC/in'
     move: 'DMARC/parsed'
 -
+  subject: 'Report_Domain:_'
+  save:
+    dir: 'DMARC/in'
+    move: 'DMARC/parsed'
+-
   subject: 'DMARC Report'
   save:
     dir: 'DMARC/in'
